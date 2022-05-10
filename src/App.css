@@ -1,9 +1,14 @@
-form,.products{
-  padding: 100px 120px;
+form{
+  padding: 5px 120px;
   text-align: center;
-  line-height: 5;
+  line-height: 4;
 }
 .products{
-  background-color: snow;
+  padding: 20px;
+  margin: 20px;
 }
 
+.header{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}

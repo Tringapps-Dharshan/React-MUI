@@ -33,18 +33,19 @@ useEffect(()=>{
     <div>
       <div>
         <Container maxWidth="sm">
-          <Box sx={{ bgcolor: 'lightblue', height: '50vh', marginTop: '150px', width: '30vw' }}>
+          <Box sx={{ bgcolor: 'lightblue', height: '60vh', marginTop: '50px', width: '30vw' }}>
             <form onSubmit={handleSubmit} autoComplete="off">
+            <h1 className='header'>DHS Store</h1>
               <TextField
                 label="Product name"
-                variant="filled"
+                variant="outlined"
                 value={productName}
                 onChange={(e) => (handleProductName(e))}
                 required
               />
               <TextField
                 label="Product price"
-                variant="filled"
+                variant="outlined"
                 value={productPrice}
                 onChange={(e) => (handleProductPrice(e))}
                 required
