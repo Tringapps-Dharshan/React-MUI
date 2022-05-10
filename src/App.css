@@ -1,0 +1,9 @@
+form,.products{
+  padding: 100px 120px;
+  text-align: center;
+  line-height: 5;
+}
+.products{
+  background-color: snow;
+}
+
